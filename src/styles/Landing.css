@@ -1,0 +1,93 @@
+.content >h1{
+    overflow-y: hidden;
+}
+
+.backgroud-landing{
+    background-color: #25232A;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    overflow:hidden;
+
+}
+
+.landing-tittle{
+    font-weight: 300;
+    font-size: 80px;
+}
+
+.landing-main{
+    z-index: 2;
+    height: 90%;
+    margin-top: -80px;
+}
+
+.logo{
+    width: 300px;
+    margin: 10px;
+}
+
+.subtittle-landing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.subtittle-landing > p {
+    font-size: 30px;
+    text-align: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.back-landing-animated{
+    position: absolute;
+    z-index: 0;
+    bottom: 10;
+    color: aqua;
+    width: 150%;
+    height: auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    overflow:hidden;
+    transform: rotate(-30deg);
+}
+
+.back-landing-animated > i{
+    transition: 0.3s;
+    opacity: 1;
+    margin: 10px;
+    color: #35323E;    
+    font-size: 64px;
+}
+
+.back-landing-animated > i:hover{
+    color: #397693;
+}
+
+@media (max-width: 551px) {
+
+.content{
+    width: auto;
+}
+
+.landing-tittle{
+        font-size: 30px;
+    }
+.subtittle-landing > p{
+
+        font-size: 20px;
+    }
+    
+
+}

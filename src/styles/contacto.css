@@ -1,0 +1,40 @@
+
+
+#Heading-contacto{
+    margin: 50px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.container-contacto{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.card.card-contacto{
+    border: none !important;
+    box-shadow: none !important;
+    height: 18rem;
+    width: 18rem;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.card.card-contacto:hover{
+  background-color: #1C1B1F !important;
+}
+
+.card.card-contacto:hover > i{
+    color: #397693;
+  }
+
+.card-contacto > i{
+    transition: 0.5s;
+    color: aliceblue;
+    font-size: 150px;
+}
+
+.card-title{
+    font-size: 25px;
+}

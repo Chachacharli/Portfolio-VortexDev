@@ -1,0 +1,28 @@
+
+
+.flex-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    
+}
+.flex-nav> p{
+    cursor: pointer;
+}
+
+.bg-navbar{
+    background-color: rgba(48, 45, 56, 47%);
+}
+
+
+
+.nav-link{
+    color: #BDC1C6 !important;
+} 
+.nav-link:hover{
+    color: white !important;
+
+}
+

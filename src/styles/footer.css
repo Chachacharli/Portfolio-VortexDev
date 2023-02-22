@@ -1,0 +1,11 @@
+
+
+#footer{
+    width: 100%;
+    height: 100px;
+    background-color: #35323E;
+}
+
+#footer > a {
+    color: aliceblue;
+}

@@ -1,0 +1,73 @@
+.icon-trabajo{
+    width: 80px;
+    height: 80px;
+}
+
+.container-icon{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+
+.card{
+    background-color: #35323E !important;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border: #838383 solid 2px !important;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.79);
+    transition: 0.5s;
+    text-decoration: none;
+
+
+}
+
+
+
+.card.card-job:hover{
+    background-color: #1C1B1F !important;
+
+}
+
+.card:hover{
+    box-shadow: 5px 5px 15px 0px rgba(31, 31, 31, 0.79);
+
+}
+
+.container{
+    padding-top: 50px !important;
+    margin-bottom: 20px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.tags{
+    color: #BDC1C6;
+}
+
+.card-content{
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.card-title{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+.icon-job{
+    margin: 50px;
+}

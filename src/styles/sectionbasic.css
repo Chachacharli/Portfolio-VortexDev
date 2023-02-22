@@ -1,0 +1,15 @@
+.section-basic-bg{
+    position: relative;
+    background-color: #25232A;
+    width: 100%;
+    min-height: 100vh;
+    overflow:hidden;
+}
+
+.section-basic-bg.large{
+    position: relative;
+    background-color: #25232A;
+    width: 100%;
+    height: auto;
+    overflow:hidden;
+}
