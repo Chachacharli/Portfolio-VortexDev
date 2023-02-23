@@ -11,10 +11,10 @@ export const Trabajo = ( ) =>{
             <div className="container text-center mx-auto mt-4 overflow-hidden">
                 <div className="row g-2">
                     <div className="col-md-4 ">
-                        <CardJob name='NutriApp' tags='React-Native'></CardJob>
+                        <CardJob name='Nearest neighbor algorithm' tags='Python | Algoritmos' url = 'https://github.com/Chachacharli/Nearest-neighbor-algoritm' ></CardJob>
                     </div>
                     <div className="col-md-4">
-                        <CardJob name='NutriApp' tags='React-Native'></CardJob>
+                        <CardJob name='Knapsack-problem-Greedy' tags='Python | Algoritmos | Notebook' url='https://github.com/Chachacharli/Knaspack-problem-Greedy-'></CardJob>
                     </div>
                     <div className="col-md-4">
                         <CardJob name='NutriApp' tags='React-Native'></CardJob>

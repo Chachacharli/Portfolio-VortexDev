@@ -75,6 +75,8 @@
     color: #397693;
 }
 
+.row-animated{width: 100%;}
+
 @media (max-width: 551px) {
 
 .content{

@@ -43,6 +43,10 @@ const responsive = {
       imagen: "JS.png"
     },
     {
+      name: "Boostrap",
+      imagen: "BOOSTRAP.png"
+    },
+    {
       name: "REACT",
       imagen: "REACT.png"
     },

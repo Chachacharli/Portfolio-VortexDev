@@ -8,13 +8,15 @@ import PDF from '../../assets/CV.pdf'
 
 const TextoSobreMi = () =>{
     return(
-        <div className="container"> 
-        <p >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quidem eligendi sit, 
-            voluptatum nihil architecto nisi doloremque deleniti animi reprehenderit. In quibusdam laboriosam maxime molestiae 
-            consequatur cumque, provident facilis ducimus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, doloribus 
-            expedita? Non fuga veritatis, ipsum impedit nulla nemo sit dolorem placeat saepe optio, aut possimus laboriosam voluptatibus 
-            laudantium quasi quas! 
+        <div className="container d-flex justify-content-center align-items-center flex-column"> 
+        <p className="text-description">
+           Soy un estudiante de ingenieria en software cursando mi 8vo semestre de carrera en la UANL. 
+           Tengo experiencia trabajando con frameworks como <strong>  React, NextJs y Django</strong>. Tengo conocimientos
+           de diseno utilizando softwares como <strong>Inkscape, Ilustrator y Gimp. </strong> 
+        </p>
+        <p className="text-description">
+            Tengo aspiraciones a trabajar en el campo de desarrollo de software trabajando en aplicaciones 
+            y desarrollo de software especializado para clientes.
         </p>
      </div>
     )
