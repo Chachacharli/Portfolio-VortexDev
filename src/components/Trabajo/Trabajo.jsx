@@ -11,27 +11,27 @@ export const Trabajo = ( ) =>{
             <div className="container text-center mx-auto mt-4 overflow-hidden">
                 <div className="row g-2">
                     <div className="col-md-4 ">
-                        <CardJob name='Nearest neighbor algorithm' tags='Python | Algoritmos' url = 'https://github.com/Chachacharli/Nearest-neighbor-algoritm' ></CardJob>
+                        <CardJob icon={'bi bi-bus-front-fill'} name='Nearest neighbor algorithm' tags='Python | Algoritmos' url = 'https://github.com/Chachacharli/Nearest-neighbor-algoritm' ></CardJob>
                     </div>
                     <div className="col-md-4">
-                        <CardJob name='Knapsack-problem-Greedy' tags='Python | Algoritmos | Notebook' url='https://github.com/Chachacharli/Knaspack-problem-Greedy-'></CardJob>
+                        <CardJob icon={'bi bi-box-seam-fill'} name='Knapsack problem greedy' tags='Python | Algoritmos | Notebook' url='https://github.com/Chachacharli/Knaspack-problem-Greedy-'></CardJob>
                     </div>
                     <div className="col-md-4">
-                        <CardJob name='NutriApp' tags='React-Native'></CardJob>
+                        <CardJob icon={'bi bi-phone'} name='NutriApp' tags='React-Native | Android' url='https://github.com/Chachacharli/NutriApp'></CardJob>
                     </div>
 
                 </div>
                 <div className="row g-2">
                 <div className="col-md-8">
-                        <CardJob name='NutriApp' tags='React-Native'></CardJob>
+                        <CardJob icon={'bi bi-award-fill'} name='NutriApp' tags='React-Native' url='https://github.com/Chachacharli/Knaspack-problem-Greedy-'></CardJob>
                     </div>
                     <div className="col-md-4 ">
-                        <CardJob name='NutriApp' tags='React-Native'></CardJob>
+                        <CardJob icon={'bi bi-award-fill'} name='NutriApp' tags='React-Native' url='https://github.com/Chachacharli/Knaspack-problem-Greedy-'></CardJob>
                     </div>
                 </div>
                 <div className="row g-2">
                 <div className="col-md-12">
-                        <CardJob name='NutriApp' tags='React-Native'></CardJob>
+                        <CardJob icon={'bi bi-globe'} name='CIIDIT Web' tags='NextJS | Jam-stack' url='https://rlucioporto.com/'></CardJob>
                     </div>
 
                 </div>

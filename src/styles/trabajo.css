@@ -16,7 +16,7 @@
 
 .card{
     background-color: #35323E !important;
-    height: 300px;
+    height: 250px !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,6 +29,9 @@
 
 }
 
+.card.card-job:hover{
+    transform: scale(1.02);
+}
 
 
 .card.card-job:hover{
@@ -56,6 +59,7 @@
 
 .tags{
     color: #BDC1C6;
+    transition: 0.7s;
 }
 
 .card-content{
@@ -63,17 +67,37 @@
     padding: 20px;
 }
 
-.card-content > img{
-    color: #000;
-}
+
 
 .card-title{
     overflow-y: hidden;
     overflow-x: hidden;
+    transition: 0.7s;
 }
 
 
 .icon-job{
     margin: 50px;
     width: 100px;
+}
+
+.icon-card-job{
+    font-size: 50px;
+    margin: 50px 0 50px 0;
+    color: #AEAAAE;
+    transition: all 0.7s;
+}
+
+.card.card-job:hover > .card-content > i{
+    color: #4A99C2;
+    text-shadow: 0px 0px 8px #4A99C2;
+    transform: scale(1.5);
+
+}
+
+.card.card-job:hover > .card-content > h5{
+    color: #4A99C2;   
+}
+.card.card-job:hover > .card-content > .tags{
+    color: #5a99bb;   
 }
