@@ -30,7 +30,7 @@ export const Trabajo = ( ) =>{
 
     return(
         <section id='Trabajo' className="section-basic-bg large">
-            <div className="container text-center mx-auto mt-4 overflow-hidden ">
+            <div id="trabajos-cards-container" className="container text-center mx-auto mt-4 overflow-hidden ">
                 <div className="row g-2">
                     <div className="col-md-4 hidden">
                         <CardJob icon={'bi bi-bus-front-fill'} name='Nearest neighbor algorithm' tags='Python | Algoritmos' url = 'https://github.com/Chachacharli/Nearest-neighbor-algoritm' ></CardJob>

@@ -23,6 +23,14 @@
 } 
 .nav-link:hover{
     color: white !important;
-
+    
 }
 
+.not-visible{
+    visibility: hidden;
+    padding: 5px;
+    color: #5a99bb;
+}
+.nav-link:hover > .not-visible{
+    visibility: visible;
+}

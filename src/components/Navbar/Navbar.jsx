@@ -1,10 +1,11 @@
 
-import React from "react";
+import React, { useEffect } from "react";
 
 
 import '../../styles/navbar.css'
 
 const Navbar = () =>{
+
     return(
         <nav className="navbar navbar-expand-lg fixed-top bg-navbar">
             <div className="container-fluid">
@@ -19,10 +20,10 @@ const Navbar = () =>{
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <div className="flex-nav">
                         <ul className="navbar-nav">
-                            <li className="nav-item"><a className="nav-link" href="#SobreMi">Sobre mi</a></li>
-                            <li className="nav-item"><a className="nav-link" href="#Trabajo">Trabajo</a></li>
-                            <li className="nav-item"><a className="nav-link" href="#Habilidades">Habilidades</a></li>
-                            <li className="nav-item"><a className="nav-link" href="#Contacto">Contacto</a></li>
+                            <li className="nav-item"><a className="nav-link" href="#SobreMi"> <span className="not-visible">{'{'}</span> Sobre mi <span className="not-visible">{'}'}</span></a> </li>
+                            <li className="nav-item"><a className="nav-link" href="#Trabajo"><span className="not-visible">{'{'}</span>Trabajo<span className="not-visible">{'}'}</span></a></li>
+                            <li className="nav-item"><a className="nav-link" href="#Habilidades"><span className="not-visible">{'{'}</span>Habilidades<span className="not-visible">{'}'}</span></a></li>
+                            <li className="nav-item"><a className="nav-link" href="#Contacto"><span className="not-visible">{'{'}</span>Contacto<span className="not-visible">{'}'}</span></a></li>
                         </ul>
                     </div>  
             </div>

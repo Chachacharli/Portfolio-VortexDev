@@ -29,17 +29,20 @@
     width: 250px; 
     height: 250px; 
     border-radius: 5px;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
     box-shadow: 0px 10px 20px #111111;
     overflow: hidden;   
+    border-radius: 50% ;
+    transition: 1s;
 }
+.container-img:hover{
+    box-shadow: 0px 10px 20px #000000;
+
+}
+
 .presentacion-img{
-    transform: rotate(-45deg );
-    width: 150%;
+    width: 100%;
+    transform: translateY(40px);
+    
 
 }
 

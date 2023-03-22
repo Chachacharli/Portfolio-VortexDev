@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Carousel from 'react-multi-carousel';
 
 import { CardCarrousel } from "./CardCarrouserl";
@@ -75,9 +75,26 @@ const responsive = {
   ]
 
 export const CarrouselCards = () =>{
-    return(
+  useEffect(() =>{
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if(entry.isIntersecting){
+                console.log(entry)
+                entry.target.classList.add('show');
+            }else{
+                console.log(entry)
+                
+                entry.target.classList.remove('show');
 
-        <div className="container">
+            }
+        })
+    })
+    const hiddenElemtens = document.querySelectorAll('.hidden')
+    hiddenElemtens.forEach((el) => observer.observe(el))
+},[])
+
+    return(
+        <div className="container hidden">
             <Carousel 
                 transitionDuration={500}
                 showDots={true}
