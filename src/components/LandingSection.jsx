@@ -17,7 +17,7 @@ const LandingSection = () =>{
             <BackGroudLanding></BackGroudLanding>
             <div className="landing-main">
                 <div className="content">
-                    <img className="logo" src={Logo} alt="VortexDevLogo" />
+                    <img className="logo" src={Logo} alt="VortexDev logo" />
                     <h1 className="landing-tittle">VortexDev</h1>
                     <div className="subtittle-landing">
                         <p>Front-end | Diseño | Innovación</p>

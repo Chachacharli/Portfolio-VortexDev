@@ -53,14 +53,14 @@ const List_icons = [
 
 const RowLanding = () =>{
 
-
     return(
+
 <>
         {
-        List_icons.map( (idx,elem) =>{
+        List_icons.map( (elem,idx) =>{
             return(
                 
-                <i key={idx} className={`bi ${ List_icons[Math.floor( Math.random() * List_icons.length)]}`}></i>
+                <i key={idx} data-id={`icon-${idx}`} className={` bi ${ List_icons[Math.floor( Math.random() * List_icons.length)]} `}></i>
 
             )
         })

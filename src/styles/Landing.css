@@ -28,6 +28,8 @@
 .logo{
     width: 300px;
     margin: 10px;
+    animation: spin linear 18s infinite;
+
 }
 
 .subtittle-landing{
@@ -75,7 +77,12 @@
     color: #397693;
 }
 
-.row-animated{width: 100%;}
+.row-animated{
+    width: 100%;
+}
+
+
+
 
 @media (max-width: 551px) {
 
@@ -95,5 +102,14 @@
     width: 300%;
 }
     
+}
 
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(-360deg);
+    }
 }
