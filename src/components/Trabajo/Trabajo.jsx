@@ -45,15 +45,15 @@ export const Trabajo = ( ) =>{
                 </div>
                 <div className="row g-2">
                 <div className="col-md-8 hidden">
-                        <CardJob icon={'bi bi-award-fill'} name='NutriApp' tags='React-Native' url='https://github.com/Chachacharli/Knaspack-problem-Greedy-'></CardJob>
+                        <CardJob icon={'bi bi-brush-fill'} name='Artexpedia' tags='NextJs | Mobile First' url='https://artexpedia.vercel.app/'></CardJob>
                     </div>
                     <div className="col-md-4 hidden">
-                        <CardJob icon={'bi bi-award-fill'} name='NutriApp' tags='React-Native' url='https://github.com/Chachacharli/Knaspack-problem-Greedy-'></CardJob>
+                        <CardJob icon={'bi bi-battery-charging'} name='Supercapacitores Software' tags='Python | Data Analysis' url='https://github.com/Chachacharli/Supercapacitores'></CardJob>
                     </div>
                 </div>
                 <div className="row g-2">
                 <div className="col-md-12 hidden">
-                        <CardJob icon={'bi bi-globe'} name='CIIDIT Web' tags='NextJS | Jam-stack' url='https://rlucioporto.com/'></CardJob>
+                        <CardJob icon={'bi bi-globe'} name='CIIDIT Web' tags='React | Blog' url='https://rlucioporto.com/'></CardJob>
                     </div>
 
                 </div>
