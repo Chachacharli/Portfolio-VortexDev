@@ -28,11 +28,8 @@ const SobreMi = () =>{
         const observer = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {
                 if(entry.isIntersecting){
-                    console.log(entry)
                     entry.target.classList.add('show');
-                }else{
-                    console.log(entry)
-                    
+                }else{                    
                     entry.target.classList.remove('show');
 
                 }
